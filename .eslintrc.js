@@ -37,18 +37,18 @@ module.exports = {
       },
     ],
   },
-  "overrides": [
+  overrides: [
     {
-      "files": ["packages/*/src/**/*.spec.ts","packages/*/src/**/*.test.ts"],
-      "rules": {
-        "import/no-extraneous-dependencies": [
-          "error",
+      files: ['packages/*/src/**/*.spec.ts', 'packages/*/src/**/*.test.ts'],
+      rules: {
+        'import/no-extraneous-dependencies': [
+          'error',
           {
-            "devDependencies": true
-          }
+            devDependencies: true,
+          },
         ],
-        "no-unused-expressions": 0
-      }
+        'no-unused-expressions': 0,
+      },
     },
-  }
+  ],
 };
