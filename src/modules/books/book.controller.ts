@@ -17,5 +17,6 @@ export const getBookById = async (
 export const addBook = async (req: Request, res: Response): Promise<void> => {
   let book = new Book(req.body);
   book = await book.save();
+  res.status(201).json(book);
   // TODO: your implementation here.
 };
