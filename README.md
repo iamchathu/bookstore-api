@@ -26,4 +26,6 @@ $ yarn
 * Then move on to the choose an connection method tab
 * Click connectyour application and you will be getting a connection  key. Then let's move back to our application
 * Create new file called .env and paste your key inside that file and assign that string to MONGODB_URI variable (Plese be remind to update <username> and <password> with your username and password)
+<h1 align="middle"><img align="center" src="https://github.com/Semicolon10/bookstore-api/blob/master/readmeimages/env.PNG"></h1>
 
+to run the project ```yarn dev```
