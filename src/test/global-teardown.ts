@@ -1,7 +1,7 @@
 import Book from '../modules/books/book.schema';
 
-const globalTearDown = () => {
-  // await Book.deleteMany({});
+const globalTearDown = async (): Promise<void> => {
+  await Book.deleteMany({});
 };
 
 export default globalTearDown;

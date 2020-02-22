@@ -1,7 +1,9 @@
 import * as dotenv from 'dotenv';
 import testConfig from './test.config';
 
-const envFile = process.env.NODE_ENV ? `.env.${process.env.NODE_ENV}` : '.env';
+const envFile = process.env.NODE_ENV
+  ? `./.env.${process.env.NODE_ENV}`
+  : './.env';
 
 dotenv.config({ path: envFile });
 
