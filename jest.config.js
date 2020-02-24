@@ -8,4 +8,5 @@ module.exports = {
   },
   testEnvironment: 'node',
   globalSetup: './src/test/global-setup.ts',
+  globalTeardown: './src/test/global-teardown.ts',
 };
